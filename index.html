@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archik | Cabinet d'Architecture & Design d'Intérieur à Agadir</title>
+    <meta name="description" content="Archik est un cabinet d'architecture, d'urbanisme et de design d'intérieur de référence basé à Agadir, Maroc. Spécialiste des villas de luxe, projets commerciaux et aménagements urbains.">
+    <meta name="keywords" content="Architecte Agadir, Cabinet architecture Agadir, Archik, Design intérieur Agadir, Villa de luxe Taghazout, Urbanisme Agadir, Plan architecte Maroc">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Archik | Cabinet d'Architecture & Design d'Intérieur - Agadir">
+    <meta property="og:description" content="Découvrez nos réalisations architecturales d'exception à Agadir et dans la région Souss-Massa. Architecte, Urbanisme & Interior Design.">
+    <meta property="og:image" content="assets/hero_villa.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="assets/logo.png" alt="Archik Logo" class="preloader-logo" onerror="this.src='https://winsfolio.net/html/archik/assets/img/logo.png'">
+            <div class="loader-line"></div>
+            <span class="preloader-text">ARCHIK AGADIR</span>
+        </div>
+    </div>
+
+    <!-- Progress Scroll to Top -->
+    <div class="scroll-top-btn" id="scrollTopBtn" title="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-container">
+            <a href="#home" class="brand-logo">
+                <img src="assets/logo.png" alt="Archik Agadir Logo" class="logo-img" onerror="this.src='https://winsfolio.net/html/archik/assets/img/logo.png'">
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-link">Nos Services <i class="fas fa-chevron-down drop-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#services" data-service="architecture">Architecture & Villa</a></li>
+                            <li><a href="#services" data-service="urbanisme">Urbanisme & Masterplan</a></li>
+                            <li><a href="#services" data-service="interior">Design d'Intérieur</a></li>
+                            <li><a href="#services" data-service="management">Suivi de Chantier</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#portfolio" class="nav-link">Réalisations</a></li>
+                    <li><a href="#agadir-vision" class="nav-link">Vision Agadir</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+212528840000" class="header-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+212 528 84 00 00</span>
+                </a>
+                <a href="#contact" class="btn btn-gold header-cta">Devis Projet</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <img src="assets/logo.png" alt="Archik Logo" class="drawer-logo">
+            <button class="drawer-close" id="drawerClose"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="drawer-links">
+            <li><a href="#home" class="drawer-link">Accueil</a></li>
+            <li><a href="#about" class="drawer-link">À propos</a></li>
+            <li><a href="#services" class="drawer-link">Nos Services</a></li>
+            <li><a href="#portfolio" class="drawer-link">Réalisations</a></li>
+            <li><a href="#agadir-vision" class="drawer-link">Vision Agadir</a></li>
+            <li><a href="#contact" class="drawer-link">Contact</a></li>
+        </ul>
+        <div class="drawer-info">
+            <p><i class="fas fa-map-marker-alt"></i> Bd Mohammed V, Agadir 80000</p>
+            <p><i class="fas fa-envelope"></i> contact@archik-agadir.ma</p>
+            <div class="drawer-socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section Slider -->
+        <section id="home" class="hero-section">
+            <div class="hero-slider" id="heroSlider">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: linear-gradient(to right, rgba(11,11,13,0.85), rgba(11,11,13,0.45)), url('assets/hero_villa.jpg');">
+                    <div class="container slide-content">
+                        <div class="hero-subtitle-wrapper">
+                            <span class="hero-line"></span>
+                            <span class="hero-subtitle">ARCHIK • CABINET D'ARCHITECTURE À AGADIR</span>
+                        </div>
+                        <h1 class="hero-title">DONNEZ VIE À VOS IDÉES AVEC ARCHIK</h1>
+                        <p class="hero-desc">Créer des espaces uniques, durables et élégants. Notre équipe associe esthétique contemporaine, innovation bioclimatique et savoir-faire marocain pour sublimer vos projets à Agadir et Taghazout.</p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-gold">Explorer nos Réalisations</a>
+                            <a href="#contact" class="btn btn-outline">Prendre Rendez-vous</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: linear-gradient(to right, rgba(11,11,13,0.85), rgba(11,11,13,0.45)), url('assets/interior.jpg');">
+                    <div class="container slide-content">
+                        <div class="hero-subtitle-wrapper">
+                            <span class="hero-line"></span>
+                            <span class="hero-subtitle">DESIGN D'INTÉRIEUR & AGENCEMENT SUR MESURE</span>
+                        </div>
+                        <h1 class="hero-title">TRANSFORMEZ VOTRE VISION EN RÉALITÉ TANGIBLE</h1>
+                        <p class="hero-desc">Chaque projet est façonné avec une attention minutieuse aux détails. Du choix des matériaux nobles aux lignes épurées, nous concevons des intérieurs luxueux et fonctionnels.</p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-gold">Nos Prestations</a>
+                            <a href="#contact" class="btn btn-outline">Contactez un Architecte</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: linear-gradient(to right, rgba(11,11,13,0.85), rgba(11,11,13,0.45)), url('assets/commercial.jpg');">
+                    <div class="container slide-content">
+                        <div class="hero-subtitle-wrapper">
+                            <span class="hero-line"></span>
+                            <span class="hero-subtitle">URBANISME & PROJETS D'ENVERGURE</span>
+                        </div>
+                        <h1 class="hero-title">L'EXCELLENCE ARCHITECTURALE AU CŒUR DE SOUSS-MASSA</h1>
+                        <p class="hero-desc">Acteur majeur du développement urbain à Agadir, Archik accompagne les promoteurs et particuliers dans la création de complexes résidentiels, commerciaux et touristiques d'exception.</p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-gold">Voir les Masterplans</a>
+                            <a href="#agadir-vision" class="btn btn-outline">Notre Engagement</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="slider-controls">
+                <button class="slider-arrow prev" id="sliderPrev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-arrow next" id="sliderNext"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="grid grid-2 align-center gap-60">
+                    <div class="about-images">
+                        <div class="img-box primary-box">
+                            <img src="assets/hero_villa.jpg" alt="Archik Architecte Villa Agadir">
+                        </div>
+                        <div class="img-box secondary-box">
+                            <img src="assets/interior.jpg" alt="Design Intérieur Archik">
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-num">15+</span>
+                            <span class="exp-text">Ans d'Excellence à Agadir</span>
+                        </div>
+                    </div>
+
+                    <div class="about-text-content">
+                        <div class="section-tag">
+                            <span class="tag-dash"></span>
+                            <span>À PROPOS DE ARCHIK</span>
+                        </div>
+                        <h2 class="section-title">L'Alliance entre Modernisme Coastal & Authenticité Marocaine</h2>
+                        <p class="text-lead">Basé au cœur de la ville d'Agadir, le cabinet <strong>Archik</strong> incarne une vision contemporaine de l'architecture méditerranéenne et atlantique.</p>
+                        <p class="text-body">Nous croyons fermement que l'architecture doit s'harmoniser avec son environnement littoral. De la baie de Taghazout aux quartiers résidentiels de Founty, Sonaba et Haut Founty, notre démarche intègre l'orientation bioclimatique, la lumière naturelle d'Agadir et des finitions d'une grande sobriété élégante.</p>
+
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feat-icon"><i class="fas fa-drafting-compass"></i></div>
+                                <div>
+                                    <h4>Conception Sur Mesure</h4>
+                                    <p>Plans personnalisés et modélisation 3D photoréaliste.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feat-icon"><i class="fas fa-leaf"></i></div>
+                                <div>
+                                    <h4>Architecture Éco-responsable</h4>
+                                    <p>Isolation thermique optimisée pour le climat d'Agadir.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="author-quote-box">
+                            <p class="quote-text">"Construire à Agadir, c'est sculpter la lumière de l'Atlantique et composer des espaces de vie mémorables."</p>
+                            <span class="author-name">— La Direction Archik Agadir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-building"></i></div>
+                        <div class="stat-number" data-target="125">0</div>
+                        <div class="stat-label">Projets Conçus à Agadir</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-ruler-combined"></i></div>
+                        <div class="stat-number" data-target="95000">0</div>
+                        <div class="stat-label">m² d'Espaces Aménagés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">% Clients Satisfaits</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-award"></i></div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Prix & Reconnaissances</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag justify-center">
+                        <span class="tag-dash"></span>
+                        <span>NOS DOMAINES D'EXPERTISE</span>
+                        <span class="tag-dash"></span>
+                    </div>
+                    <h2 class="section-title">Solutions Architecturales Complètes à Agadir</h2>
+                    <p class="section-sub">De l'esquisse initiale au permis de construire et jusqu'à la remise des clés, Archik gère toutes les phases de votre projet.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card" data-service-type="architecture">
+                        <div class="card-bg" style="background-image: url('assets/hero_villa.jpg');"></div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <div class="serv-number">01</div>
+                            <div class="serv-icon"><i class="fas fa-cubes"></i></div>
+                            <h3 class="serv-title">Architecture & Conception</h3>
+                            <p class="serv-desc">Conception de villas de luxe, résidences contemporaines et édifices publics. Étude de faisabilité, esquisses et dossier d'autorisation de construire à Agadir.</p>
+                            <ul class="serv-list">
+                                <li><i class="fas fa-check"></i> Villas d'Exception (Taghazout / Founty)</li>
+                                <li><i class="fas fa-check"></i> Permis de Construire & Conformité</li>
+                                <li><i class="fas fa-check"></i> Rendu Photoréaliste 3D & VR</li>
+                            </ul>
+                            <a href="#contact" class="serv-link">Demander une étude <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card" data-service-type="urbanisme">
+                        <div class="card-bg" style="background-image: url('assets/urbanism.jpg');"></div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <div class="serv-number">02</div>
+                            <div class="serv-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <h3 class="serv-title">Urbanisme & Masterplan</h3>
+                            <p class="serv-desc">Planification territoriale et aménagement urbain pour complexes touristiques, zones commerciales et éco-quartiers dans la région Souss-Massa.</p>
+                            <ul class="serv-list">
+                                <li><i class="fas fa-check"></i> Études d'Impact & Faisabilité</li>
+                                <li><i class="fas fa-check"></i> Masterplans Touristiques & Littoraux</li>
+                                <li><i class="fas fa-check"></i> Aménagement d'Espaces Publics</li>
+                            </ul>
+                            <a href="#contact" class="serv-link">Demander une étude <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card" data-service-type="interior">
+                        <div class="card-bg" style="background-image: url('assets/interior.jpg');"></div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <div class="serv-number">03</div>
+                            <div class="serv-icon"><i class="fas fa-couch"></i></div>
+                            <h3 class="serv-title">Design d'Intérieur</h3>
+                            <p class="serv-desc">Agencement intérieur d'exception pour villas, hôtels, penderies, salons marocains modernes et espaces de travail haut de gamme.</p>
+                            <ul class="serv-list">
+                                <li><i class="fas fa-check"></i> Mobilier Sur-Mesure & Éclairage</li>
+                                <li><i class="fas fa-check"></i> Sélection de Matériaux Prestigieux</li>
+                                <li><i class="fas fa-check"></i> Moodboards & Plans de Zoning</li>
+                            </ul>
+                            <a href="#contact" class="serv-link">Demander une étude <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card" data-service-type="management">
+                        <div class="card-bg" style="background-image: url('assets/commercial.jpg');"></div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <div class="serv-number">04</div>
+                            <div class="serv-icon"><i class="fas fa-hard-hat"></i></div>
+                            <h3 class="serv-title">Suivi & Pilotage de Chantier</h3>
+                            <p class="serv-desc">Supervision rigoureuse de l'exécution des travaux à Agadir. Coordination des corps d'état, respect des budgets et des délais impartis.</p>
+                            <ul class="serv-list">
+                                <li><i class="fas fa-check"></i> Contrôle Qualité des Matériaux</li>
+                                <li><i class="fas fa-check"></i> Gestion des Délais & Budgets</li>
+                                <li><i class="fas fa-check"></i> Réception Clé en Main</li>
+                            </ul>
+                            <a href="#contact" class="serv-link">Demander une étude <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery Section -->
+        <section id="portfolio" class="portfolio-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag justify-center">
+                        <span class="tag-dash"></span>
+                        <span>NOTRE PORTFOLIO</span>
+                        <span class="tag-dash"></span>
+                    </div>
+                    <h2 class="section-title">Réalisations Récentes à Agadir & Région</h2>
+                    <p class="section-sub">Découvrez nos projets d'architecture, nos villas contemporaines et nos aménagements intérieurs marquants.</p>
+                </div>
+
+                <!-- Portfolio Filters -->
+                <div class="portfolio-filters" id="portfolioFilters">
+                    <button class="filter-btn active" data-filter="all">Tous les Projets</button>
+                    <button class="filter-btn" data-filter="villa">Villas de Luxe</button>
+                    <button class="filter-btn" data-filter="commercial">Tertiaire & Commerce</button>
+                    <button class="filter-btn" data-filter="interior">Design d'Intérieur</button>
+                    <button class="filter-btn" data-filter="urbanism">Urbanisme</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid" id="portfolioGrid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item" data-category="villa" data-title="Villa Taghazout Ocean Cliff" data-location="Taghazout Bay, Agadir" data-year="2025" data-area="680 m²" data-img="assets/hero_villa.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/hero_villa.jpg" alt="Villa Taghazout Ocean Cliff Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Villa de Luxe</span>
+                                <h3 class="port-title">Villa Taghazout Ocean Cliff</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Taghazout Bay, Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-item" data-category="interior" data-title="Penthouse Marina Luxury Suite" data-location="Marina d'Agadir" data-year="2025" data-area="320 m²" data-img="assets/interior.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/interior.jpg" alt="Penthouse Marina Agadir Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Design d'Intérieur</span>
+                                <h3 class="port-title">Penthouse Marina Suite</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Marina d'Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-item" data-category="commercial" data-title="Siège Business Center Agadir" data-location="Boulevard Hassan II, Agadir" data-year="2024" data-area="4500 m²" data-img="assets/commercial.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/commercial.jpg" alt="Business Center Agadir Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Tertiaire & Commerce</span>
+                                <h3 class="port-title">Siège Business Center</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Bd Hassan II, Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-item" data-category="urbanism" data-title="Masterplan Taghazout Resort Promenade" data-location="Littoral Taghazout, Agadir" data-year="2024" data-area="12 Hectares" data-img="assets/urbanism.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/urbanism.jpg" alt="Masterplan Taghazout Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Urbanisme</span>
+                                <h3 class="port-title">Taghazout Resort Promenade</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Littoral Taghazout, Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-item" data-category="villa" data-title="Villa Minimaliste Founty" data-location="Quartier Founty, Agadir" data-year="2024" data-area="540 m²" data-img="assets/hero_villa.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/hero_villa.jpg" alt="Villa Minimaliste Founty Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Villa de Luxe</span>
+                                <h3 class="port-title">Villa Minimaliste Founty</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Founty, Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio-item" data-category="interior" data-title="Salon Contemporain & Lounge Founty" data-location="Sonaba, Agadir" data-year="2023" data-area="210 m²" data-img="assets/interior.jpg">
+                        <div class="portfolio-card">
+                            <img src="assets/interior.jpg" alt="Salon Lounge Founty Archik">
+                            <div class="portfolio-info">
+                                <span class="port-cat">Design d'Intérieur</span>
+                                <h3 class="port-title">Salon Lounge Contemporary</h3>
+                                <p class="port-loc"><i class="fas fa-map-marker-alt"></i> Sonaba, Agadir</p>
+                                <button class="view-btn"><i class="fas fa-expand"></i> Voir le Projet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agadir Regional Vision Showcase -->
+        <section id="agadir-vision" class="agadir-vision-section section-padding">
+            <div class="container">
+                <div class="grid grid-2 align-center gap-60">
+                    <div>
+                        <div class="section-tag">
+                            <span class="tag-dash"></span>
+                            <span>LOCALISATION & VISION</span>
+                        </div>
+                        <h2 class="section-title">Construire pour l'Avenir d'Agadir</h2>
+                        <p class="text-lead">Capitale du Souss-Massa, Agadir connaît un essor architectural remarquable impulsé par le Programme de Développement Urbain (PDU).</p>
+                        <p class="text-body">Chez <strong>Archik</strong>, nous concevons des projets qui respectent le microclimat ensoleillé d'Agadir, la fraicheur des brises marines et les normes parasismiques rigoureuses. Nos réalisations privilégient l'efficacité énergétique, les matériaux locaux résistants au sel et des esthétiques intemporelles.</p>
+                        
+                        <div class="vision-highlights">
+                            <div class="v-high">
+                                <div class="v-icon"><i class="fas fa-sun"></i></div>
+                                <div>
+                                    <h5>Bioclimatique Atantique</h5>
+                                    <p>Maximiliser la ventilation naturelle et réduire l'impact thermique.</p>
+                                </div>
+                            </div>
+                            <div class="v-high">
+                                <div class="v-icon"><i class="fas fa-shield-alt"></i></div>
+                                <div>
+                                    <h5>Normes Parasismiques R.P.S</h5>
+                                    <p>Ingénierie de structure sécurisée selon les plus hauts standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vision-image-grid">
+                        <img src="assets/urbanism.jpg" alt="Vision Archik Agadir" class="v-img-main">
+                        <div class="v-badge">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ancrage Régional Agadir • Taghazout • Souss-Massa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag justify-center">
+                        <span class="tag-dash"></span>
+                        <span>TÉMOIGNAGES CLIENTS</span>
+                        <span class="tag-dash"></span>
+                    </div>
+                    <h2 class="section-title">Ce que disent nos Maîtres d'Ouvrage</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testi-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testi-text">"Archik a conçu notre villa à Taghazout avec une créativité exceptionnelle. La gestion de la lumière et la vue sur l'océan dépassent toutes nos espérances."</p>
+                        <div class="testi-user">
+                            <div class="user-avatar">MB</div>
+                            <div>
+                                <h4 class="user-name">M. Benjelloun</h4>
+                                <span class="user-role">Propriétaire Villa Taghazout</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testi-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testi-text">"Une équipe professionnelle, à l'écoute des moindres détails. Le suivi du chantier à Founty Agadir a été impeccable et livré dans les délais."</p>
+                        <div class="testi-user">
+                            <div class="user-avatar">KO</div>
+                            <div>
+                                <h4 class="user-name">K. Ouazzani</h4>
+                                <span class="user-role">Investisseur Immobilier Agadir</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testi-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testi-text">"Le design d'intérieur de nos bureaux administratifs à Agadir est élégant et très fonctionnel. Un grand bravo au cabinet Archik !"</p>
+                        <div class="testi-user">
+                            <div class="user-avatar">SA</div>
+                            <div>
+                                <h4 class="user-name">S. Amrani</h4>
+                                <span class="user-role">Directeur Groupe Souss</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Map Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag justify-center">
+                        <span class="tag-dash"></span>
+                        <span>CONTACTEZ ARCHIK AGADIR</span>
+                        <span class="tag-dash"></span>
+                    </div>
+                    <h2 class="section-title">Discutons de Votre Projet Architectural</h2>
+                    <p class="section-sub">Rencontrez nos architectes dans nos locaux à Agadir ou envoyez-nous votre demande en ligne.</p>
+                </div>
+
+                <div class="grid grid-2 gap-60">
+                    <!-- Contact Form -->
+                    <div class="contact-form-box">
+                        <h3 class="box-title">Formulaire de Contact</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Nom Complet *</label>
+                                    <input type="text" id="name" name="name" placeholder="Ex: Youssef El Amrani" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Adresse Email *</label>
+                                    <input type="email" id="email" name="email" placeholder="votre.email@domaine.ma" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Téléphone *</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+212 600 00 00 00" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Type de Projet *</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Sélectionnez un service</option>
+                                        <option value="Villa de Luxe">Conception Villa de Luxe</option>
+                                        <option value="Projet Commercial">Immeuble / Projet Commercial</option>
+                                        <option value="Design Intérieur">Design d'Intérieur & Rénovation</option>
+                                        <option value="Urbanisme">Étude d'Urbanisme / Masterplan</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="location">Localisation du Terrain / Projet</label>
+                                <input type="text" id="location" name="location" placeholder="Ex: Taghazout, Founty, Sonaba, Agadir Centre...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Description du Projet *</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Détaillez vos besoins (surface approximative, délais, contraintes...)" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-gold w-100" id="submitBtn">
+                                <span>Envoyer le Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details & Map -->
+                    <div class="contact-info-box">
+                        <h3 class="box-title">Coordonnées du Cabinet</h3>
+                        <p class="info-intro">Notre équipe vous accueille sur rendez-vous pour étudier vos plans et concrétiser vos idées.</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h5>Adresse Agadir</h5>
+                                    <p>Boulevard Mohammed V, Résidence Archik, 80000 Agadir, Maroc</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h5>Téléphone Fixe & Mobile</h5>
+                                    <p><a href="tel:+212528840000">+212 528 84 00 00</a> / <a href="tel:+212661000000">+212 661 00 00 00</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email Officiel</h5>
+                                    <p><a href="mailto:contact@archik-agadir.ma">contact@archik-agadir.ma</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fas fa-clock"></i></div>
+                                <div>
+                                    <h5>Horaires d'Ouverture</h5>
+                                    <p>Lundi - Vendredi: 08h30 - 18h30 | Samedi: 09h00 - 13h00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Embedded Google Map Agadir -->
+                        <div class="map-wrapper">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55077.58661730303!2d-9.610531580228308!3d30.42775532517616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6e9daad1cc9%3A0xbcf8d0b78bf48474!2sAgadir%2C%20Morocco!5e0!3m2!1sen!2sma!4v1700000000000!5m2!1sen!2sma" 
+                                width="100%" 
+                                height="220" 
+                                style="border:0; border-radius: 8px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Floating WhatsApp Action -->
+    <a href="https://wa.me/212661000000?text=Bonjour%20Cabinet%20Archik%20Agadir,%20je%20souhaite%20des%20informations%20sur%20vos%20services%20d'architecture." class="whatsapp-float" target="_blank" rel="noopener" title="Discuter sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Project Lightbox Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img src="" id="modalImg" alt="Detail projet Archik">
+                </div>
+                <div class="modal-details">
+                    <span class="modal-tag" id="modalTag">Villa de Luxe</span>
+                    <h2 class="modal-title" id="modalTitle">Nom du Projet</h2>
+                    <p class="modal-location" id="modalLocation"><i class="fas fa-map-marker-alt"></i> Agadir</p>
+                    
+                    <div class="modal-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Année:</span>
+                            <span class="spec-val" id="modalYear">2025</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Surface:</span>
+                            <span class="spec-val" id="modalArea">650 m²</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Cabinet:</span>
+                            <span class="spec-val">Archik Agadir</span>
+                        </div>
+                    </div>
+
+                    <p class="modal-desc">Ce projet architectural illustre parfaitement la philosophie d'Archik: une écriture architecturale contemporaine sublimée par l'exposition naturelle d'Agadir, l'intégration des espaces verts et des finitions haut de gamme.</p>
+
+                    <a href="#contact" class="btn btn-gold modal-cta" onclick="closeModal()">Demander un projet similaire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast Container -->
+    <div id="toastContainer"></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <a href="#home" class="footer-logo-wrapper">
+                        <img src="assets/logo.png" alt="Archik Logo" class="footer-logo" onerror="this.src='https://winsfolio.net/html/archik/assets/img/logo.png'">
+                    </a>
+                    <p class="footer-about">Cabinet d'Architecture, Urbanisme & Design d'Intérieur basé à Agadir. Nous façonnons des espaces de vie innovants et raffinés dans toute la région Souss-Massa.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Architecture Residential</a></li>
+                        <li><a href="#services">Villas de Luxe Taghazout</a></li>
+                        <li><a href="#services">Design d'Intérieur & 3D</a></li>
+                        <li><a href="#services">Masterplan & Urbanisme</a></li>
+                        <li><a href="#services">Suivi & Pilotage Chantier</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quartiers Agadir</h4>
+                    <ul class="footer-links">
+                        <li><a href="#portfolio">Taghazout Bay</a></li>
+                        <li><a href="#portfolio">Quartier Founty</a></li>
+                        <li><a href="#portfolio">Marina d'Agadir</a></li>
+                        <li><a href="#portfolio">Sonaba & Charaf</a></li>
+                        <li><a href="#portfolio">Imi Ouaddar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Agadir</h4>
+                    <p class="footer-contact-item"><i class="fas fa-map-marker-alt"></i> Bd Mohammed V, Agadir 80000</p>
+                    <p class="footer-contact-item"><i class="fas fa-phone-alt"></i> +212 528 84 00 00</p>
+                    <p class="footer-contact-item"><i class="fas fa-envelope"></i> contact@archik-agadir.ma</p>
+                    <div class="footer-badge">
+                        <i class="fas fa-certificate"></i> Ordre Régional des Architectes
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>Archik Agadir</strong>. Tous droits réservés. Inspiré du design architectural contemporain.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
